@@ -1,3 +1,25 @@
-h1{
+
+/* To apply style to everything : "* {}" */
+/* Search color palette on Google */
+
+
+h1 {
     color: red;
+}
+
+button {
+    color: aqua;
+    background-color: black;
+}
+
+body {
+    background-color: burlywood;
+}
+
+#head_1 {
+    color: blue;
+}
+
+.MyClass {
+    color: chocolate;
 }
