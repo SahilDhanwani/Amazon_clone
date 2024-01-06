@@ -32,35 +32,61 @@ body {
     text-decoration: blue wavy underline;
 } */
 
-/* p { */
-    /* For languages like Eng & Hindi start == right and end == left but for Sindhi it is reverse */
-    /* text-align: center;
+
+/* For languages like Eng & Hindi start == right and end == left but for Sindhi it is reverse */
+/* p {
+    text-align: center;
     text-align: end; 
 } */
 
 
-
-h1 {
+/* font-weight is between 100 to 900 */
+/* h1 {
     font-weight: bolder;
     font-weight: bold;
     font-weight: normal;
     font-weight: lighter;
-    /* font-weight is between 100 to 900 */
-}
+} */
 
-h1 {
+
+/* Apply Font family one with highest priority and then later if it's not supported by browser */
+/* h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* Apply Font family one with highest priority and then later if it's not supported by browser */
-}
+}  */
 
-h1 {
+
+/* h1 {
     font-size: 45px;
-    line-height: 500px;
-}
+    line-height: 100px;
+} */
 
-h1 {
+
+
+/* h1 {
     text-transform: lowercase;
     text-transform: capitalize;
     text-transform: uppercase;
     text-transform: none;
-} 
+}  */
+
+
+/* CSS LEVEL 2 :  */
+
+#head_1 {
+    height: 100px;
+    width: 600px;
+    background-color: aqua;
+
+    border-width: 5px;
+    border-color: red;
+    border-style: double;
+    border-radius: 10px;
+    border-radius: 50%;
+
+    padding-left: 50px;
+    padding-top: 25px;
+    padding: 30px 50px 20px 100px;
+
+    margin-left: 50px;
+    margin: 30px 50px 20px 100px;
+}
