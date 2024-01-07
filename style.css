@@ -1,5 +1,6 @@
 /* To apply style to everything : "* {}" */
 /* Search color palette on Google */
+/* Search for copyright free images on unsplash */
 
 
 /* h1 {
@@ -71,7 +72,7 @@ body {
 
 /* CSS LEVEL 2 :  */
 
-#head_1 {
+/* #head_1 {
     height: 100px;
     width: 600px;
     background-color: aqua;
@@ -110,4 +111,43 @@ body {
     z-index: 1;
     z-index: -1;
     z-index: 0;
+
+    background-image: url('https://source.unsplash.com/random/1920x1080');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+} */
+
+body {
+    text-align: center;
+}
+div {
+    height: 100px;
+    width: 100px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#container {
+    height: 200px;
+    width: 800px;
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: burlywood;
+}
+
+#box3 {
+    background-color: chocolate;
+}
+
+#box4 {
+    background-color: darkcyan;
 }
