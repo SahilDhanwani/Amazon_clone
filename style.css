@@ -151,3 +151,9 @@ div {
 #box4 {
     background-color: darkcyan;
 }
+
+@media (min-width: 200px) and (max-width: 600px) {
+    div {
+        border-color: red;
+    }
+}
