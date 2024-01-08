@@ -152,8 +152,14 @@ div {
     background-color: darkcyan;
 }
 
+#box4:hover {
+    background-color: rgb(244, 10, 10);
+}
+
 @media (min-width: 200px) and (max-width: 600px) {
     div {
         border-color: red;
     }
 }
+
+/* Learn Transition, rotate, transform, translate, skew, scale, animation, keyframes, etc. */
